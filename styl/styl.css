@@ -1,0 +1,55 @@
+body{
+	padding: 3%;
+}
+body html {
+	height: 100%;
+	width: 100%;
+}
+
+.p-div{
+	color: purple;
+	font-size: 30px;
+}
+img{
+	max-width: 500px;
+	margin-top: 15px;
+}
+.form-div{
+	max-width:90%;
+	margin-top: 19px;
+	margin-bottom: 10px
+
+}
+.form-div label{
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+.input-class{
+	width: 100%;
+
+}
+
+.textarea{
+	width: 100%;
+	margin-top: 11px
+}
+.select{
+	width: 100%;
+	margin-top: 11px
+}
+h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.Enterteinment{
+	margin-top: 20px
+}
+.button{
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 15px; 
+	color:#ffff;
+	background-color: purple;
+}
+

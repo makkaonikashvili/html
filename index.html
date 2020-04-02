@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Our Website description">
+  	<meta name="keywords" content="HTML,CSS, Responsive, Float">
+  	<meta name="author" content="Kristina">
+  	<meta name="google" content="notranslate" />
+
+  	<meta property="og:url"                content="https://kristina-makalatia.github.io/responsive_geolab/" />
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Our Website FB Title" />
+	<meta property="og:description"        content="Our Website FB Description" />
+	<meta property="og:image"              content="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" />
+
+	<title>page1</title>
+	<link rel="stylesheet" type="text/css" href="styl/reset.css">
+	<link rel="stylesheet" type="text/css" href="styl/styl.css">
+</head>
+<body>
+	<section >
+		<div class="box">
+			<div class="p-div">
+				<p>Enterteinment Booking Form</p>
+			</div>
+			<div>
+				<img src="party.jpg">
+			</div>
+			<form>
+				<div class="form-div">
+					<label for="Devent">Date of event</label>
+					<input class="input-class" type="Date" name="Date of event" id="Devent" placeholder="Date">
+				</div>
+				<div class="form-div">
+					<label for="artists">select artists</label>
+					<select id="artists" name="artists" multiple="2" size="1" class="select">
+						<option value="*NSYNC">*NSYNC</option>
+						<option value="the weeknd">The weeknd</option>
+						<option value="billie eilish">Billie eilish</option>
+						
+					</select>
+				</div>
+				<div class="form-div">
+					<label>description of event</label>
+					<textarea  name="description" class="textarea">
+						
+					</textarea>
+				</div>
+				<div class="form-div">
+					<label for="Pname"> promoter's name</label>
+					<input class="input-class" type="text" name="promoters name" id="Pname">
+				</div>
+
+				<div class="form-div">
+					<label for="Venus name"> venus name</label>
+					<input class="input-class" type="text" name="Venus name" id="Venus name">
+				</div>
+				<div class="form-div">
+					<label for="Venus address"> venus address</label>
+					<input class="input-class" type="number" name="Venus address" id="Venus address" placeholder="address">
+				</div>
+				<div class="form-div">
+					<h2> Choose your interest</h2>
+				    <input class="Enterteinment" type="radio" id="code" name="Enterteinment" value="coding">
+                    <label  for="coding">Coding</label><br>
+                    <input class="Enterteinment" type="radio" id="music" name="Enterteinment" value="Music">
+                    <label  for="Music">Music</label><br>
+                    <input class="Enterteinment" type="radio" id="art" name="Enterteinment" value="art">
+                    <label  for="art">Art</label>  
+				</div>
+				<div class="form-div">
+					<label for="Performance">Type of Performance</label>
+					<select id="Performance" name="performance" multiple="2" size="1" class="select">
+						<option value="#"></option>
+						<option value="#"></option>
+						<option value="#"></option>
+						
+					</select>
+				</div>
+				<div class="form-div">
+					<label for="Time">Set Time (in minutes)</label>
+					<input class="input-class" type="time" name="time" id="time">
+				</div>
+				<div class="form-div">
+					<label for="mail">Contact mail</label>
+					<input class="input-class" type="email" name="mail" id="mail">
+				</div>
+				<div class="form-div">
+					<label for="number">Contact Number</label>
+					<input class="input-class" type="number" name="number" id="number">
+				</div>
+				<div class="form-div">
+					<h2> Will this event recorded?</h2>
+				    <input class="Enterteinment" type="radio" id="yes" name="yes or no" value="yes">
+                    <label  for="yes">Yes</label><br>
+                    <input class="Enterteinment" type="radio" id="no" name="yes or no" value="no">
+                    <label  for="no">No</label><br>
+				</div>
+				<button class="button" type="submit" value="submit" >Send</button>
+			</form>
+		</div>
+	</section>
+
+
+</body>
+</html>
